@@ -1,0 +1,73 @@
+<!-- Vector 1 -->
+<View
+android:id="@+id/vector_1"
+android:layout_width="360dp"
+android:layout_height="527dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:background="@drawable/vector_1"
+ />
+
+
+<!-- drawable/vector_1.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="360dp"
+android:height="527dp"
+android:viewportWidth="360"
+android:viewportHeight="527"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H360V527H0V0Z"
+/>
+
+<group
+android:translateX="0.479"
+android:translateY="-0.222"
+android:pivotX="180"
+android:pivotY="263.5"
+android:scaleX="2.711"
+android:scaleY="2.083"
+android:rotation="43.294"
+>
+
+<path
+android:pathData="M0 0V527H360V0"
+>
+
+<aapt:attr name="android:fillColor">
+
+<gradient
+android:type="linear"
+android:startX="90"
+android:startY="263.5"
+android:endX="270"
+android:endY="263.5"
+>
+
+<item
+android:color="#D45CC88D"
+android:offset="0"
+/>
+
+<item
+android:color="#91C6FC"
+android:offset="1"
+/>
+
+</gradient>
+
+</aapt:attr>
+
+</path>
+
+</group>
+
+</group>
+
+</vector>
